@@ -67,12 +67,11 @@ h1 {
 .status {
   margin-bottom: 10px;
   font-size: 24px;
-  color: #164c17;
+  color: #363636;
   text-align: center;
   padding: 10px;  
   border-radius: 15px;
-  background-color: #dbd8e3;
-  animation: fadeIn 1.5s ease-in-out, pulse 2s infinite;
+  animation:  pulse 2s infinite;
 }
 
 button.reset {
@@ -100,7 +99,7 @@ button.reset:focus {
 }
 
 .first-color {
-  background: #a6fa9e;
+  background: #ffffff;
 }
 
 .second-color {
@@ -183,6 +182,6 @@ button.reset:focus {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.05);
+    transform: scale(1.4);
   }
 }
